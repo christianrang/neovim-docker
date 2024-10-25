@@ -8,6 +8,7 @@ RUN apt-get -y update \
   gettext \
   cmake \
   unzip \
+  tmux \
   curl 
 
 ENV CMAKE_BUILD_TYPE=Release
